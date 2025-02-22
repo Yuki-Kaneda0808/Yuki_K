@@ -6,16 +6,21 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <h1>Welcome to My Personal Website</h1>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Hello! I'm Yuki Kaneda, a reproductive and developmental biologist.
+          This website showcases my research, publications, and interests.
+        </p>
+        <p>
+          Feel free to explore my work and reach out if you have any questions!
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://github.com/Yuki-Kaneda0808"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Check out my GitHub
         </a>
       </header>
     </div>
