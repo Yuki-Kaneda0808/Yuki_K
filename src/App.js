@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import oocyteImage from './images/Oocyte.png';
 
 function App() {
   return (
@@ -22,6 +23,23 @@ function App() {
         >
           Check out my GitHub
         </a>
+        <a
+          className="App-link"
+          href="https://researchmap.jp/yukikaneda"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Visit my ResearchMap
+        </a>
+        <a
+          className="App-link"
+          href="https://scholar.google.com/citations?user=6YNJAUAAAAAJ&hl=en"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Visit my Google Scholar
+        </a>
+        <img src={oocyteImage} alt="Oocyte" />
       </header>
     </div>
   );
