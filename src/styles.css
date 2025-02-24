@@ -10,6 +10,18 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
+  color: var(--text-color);
+}
+
+/* Page container to ensure transparent background on all pages */
+.page-container {
+  background-color: rgba(255, 255, 255, 0.7); /* Set background to white with 70% opacity */
+  min-height: 100vh; /* Ensure full height */
+  padding: 2rem; /* Add spacing */
+  box-sizing: border-box;
+  color: var(--text-color); /* Use defined text color */
+  border-radius: 10px; /* Round the corners */
+  position: relative; /* Set position relative for child elements */
 }
 
 /* Example button styles */
@@ -24,4 +36,10 @@ body {
 
 .button:hover {
   background-color: lightgray; /* Change on hover */
+}
+
+/* Additional styles for image container */
+.image-container {
+  position: relative; /* Set the relative position for the image */
+  display: inline-block; /* Fit the size of the image */
 }

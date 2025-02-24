@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => {
   return (
-    <div className="additional-info">
+    <div className="page-container">
       <h2>Affiliation</h2>
       <p>Graduate School of Pharmaceutical Sciences, Osaka University (Concurrent)</p>
       <p>Research Institute for Microbial Diseases</p>

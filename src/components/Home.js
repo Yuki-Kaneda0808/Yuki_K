@@ -2,7 +2,7 @@ import React from 'react';
 
 const Home = () => {
   return (
-    <header className="App-header">
+    <div className="page-container transparent-background"> {/* 透過背景を追加 */}
       <h1>Welcome to Yuki Kaneda's Personal Website</h1>
       <p>
         Hello! I'm Yuki Kaneda, a reproductive and developmental biologist.
@@ -31,7 +31,7 @@ const Home = () => {
           Google Scholar Profile
         </a>
       </p>
-    </header>
+    </div>
   );
 };
 

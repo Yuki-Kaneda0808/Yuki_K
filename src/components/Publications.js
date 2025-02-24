@@ -30,7 +30,7 @@ const publicationsData = [
 
 const Publications = () => {
   return (
-    <div>
+    <div className="page-container">
       <h1>Publications</h1>
       <ul>
         {publicationsData.map((pub, index) => (
