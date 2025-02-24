@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Yuki_K/static/css/main.5f24df77.css",
-    "main.js": "/Yuki_K/static/js/main.706b7f3d.js",
+    "main.css": "/Yuki_K/static/css/main.e3d58949.css",
+    "main.js": "/Yuki_K/static/js/main.9f19cbd9.js",
     "static/media/Oocyte.png": "/Yuki_K/static/media/Oocyte.12f5378398ab70a82e43.png",
     "index.html": "/Yuki_K/index.html",
-    "main.5f24df77.css.map": "/Yuki_K/static/css/main.5f24df77.css.map",
-    "main.706b7f3d.js.map": "/Yuki_K/static/js/main.706b7f3d.js.map"
+    "main.e3d58949.css.map": "/Yuki_K/static/css/main.e3d58949.css.map",
+    "main.9f19cbd9.js.map": "/Yuki_K/static/js/main.9f19cbd9.js.map"
   },
   "entrypoints": [
-    "static/css/main.5f24df77.css",
-    "static/js/main.706b7f3d.js"
+    "static/css/main.e3d58949.css",
+    "static/js/main.9f19cbd9.js"
   ]
 }
