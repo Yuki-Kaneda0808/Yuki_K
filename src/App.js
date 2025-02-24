@@ -5,6 +5,7 @@ import Navigation from './components/Navigation';
 import Home from './components/Home'; // Home component
 import About from './components/About'; // About component
 import Publications from './components/Publications';
+import News from './components/News'; // Import News component
 import Contact from './components/Contact';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/publications" element={<Publications />} />
+            <Route path="/news" element={<News />} /> {/* Add News route */}
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </div>
