@@ -2,8 +2,8 @@
 
 /* Define global variables */
 :root {
-  --text-color: #333; /* Define your text color */
-  --primary-bg-color: #fff; /* Define a primary background color */
+  --text-color: #333;
+  --primary-bg-color: #fff;
 }
 
 /* Universal styles */
@@ -11,35 +11,61 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   color: var(--text-color);
+  background-image: url('./images/Oocyte.png'); /* Corrected path */
+  background-size: cover;
+  background-position: center;
 }
 
-/* Page container to ensure transparent background on all pages */
+/* Page container */
 .page-container {
-  background-color: rgba(255, 255, 255, 0.7); /* Set background to white with 70% opacity */
-  min-height: 100vh; /* Ensure full height */
-  padding: 2rem; /* Add spacing */
-  box-sizing: border-box;
-  color: var(--text-color); /* Use defined text color */
-  border-radius: 10px; /* Round the corners */
-  position: relative; /* Set position relative for child elements */
+  max-width: 800px;
+  margin: 60px auto; /* Increased top margin for more spacing */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
-/* Example button styles */
-.button {
-  padding: 10px 15px;
-  border: none;
-  border-radius: 5px;
-  background-color: var(--primary-bg-color);
-  cursor: pointer;
-  transition: background-color 0.3s;
+/* Welcome title */
+.welcome-title {
+  font-size: 2.5em;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
 }
 
-.button:hover {
-  background-color: lightgray; /* Change on hover */
+/* Intro text */
+.intro-text {
+  font-size: 1.2em;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: #555;
 }
 
-/* Additional styles for image container */
-.image-container {
-  position: relative; /* Set the relative position for the image */
-  display: inline-block; /* Fit the size of the image */
+/* Explore text */
+.explore-text {
+  font-size: 1.1em;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #666;
+}
+
+/* Links container */
+.links-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* Link styles */
+.App-link {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.App-link:hover {
+  color: #0056b3;
 }

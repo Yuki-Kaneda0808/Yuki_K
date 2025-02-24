@@ -1,11 +1,12 @@
 import React from 'react';
+import './About.css'; // Make sure to import the CSS file
 
 const About = () => {
   return (
     <div className="page-container">
       <h2>Affiliation</h2>
-      <p>Graduate School of Pharmaceutical Sciences, Osaka University (Concurrent)</p>
       <p>Research Institute for Microbial Diseases</p>
+      <p>Graduate School of Pharmaceutical Sciences, Osaka University (Concurrent)</p>
 
       <h2>Degree</h2>
       <p>Master's (Pharmaceutical Sciences) (Mar, 2023, Osaka University)</p>
@@ -19,8 +20,7 @@ const About = () => {
       <p>Mar, 2023: 2023 Osaka University Sawai Memorial Pharmacy Friends Award for Young Researchers</p>
 
       <h2>Research Areas</h2>
-      <p>Life Sciences / Laboratory Animal Science / Reproductive Engineering</p>
-      <p>Life Sciences / Developmental Biology / Fertilization</p>
+      <p>Laboratory Animal Science / Reproductive Engineering / Developmental Biology / Fertilization</p>
     </div>
   );
 };
