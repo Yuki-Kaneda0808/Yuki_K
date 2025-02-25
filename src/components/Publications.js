@@ -8,7 +8,7 @@ const publicationsData = [
     journal: "Development",
     doi: "10.1242/dev.202838",
     link: "https://doi.org/10.1242/dev.202838",
-    isFirstAuthor: true,
+    isFirstAuthor: false,
   },
   {
     title: "FBXO24 deletion causes abnormal accumulation of membraneless electron-dense granules in sperm flagella and male infertility",
